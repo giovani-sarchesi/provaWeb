@@ -12,6 +12,7 @@
     <h1 id="cabecalho">
         Concessinonária Sarchesi Valle
     </h1>
+    <hr />
     <form id="frmCadastro" runat="server">
             <asp:Label  ID="lblId" runat="server" Text="Id Carro" Width="75px"></asp:Label>
             <asp:TextBox ID="txtId" runat="server" MaxLength="20" Width="100px"></asp:TextBox><br />

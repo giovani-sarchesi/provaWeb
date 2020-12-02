@@ -2,10 +2,16 @@
     width: 360px;
 }
 
-body{
-    background-color: lightsteelblue;
+body {
+    background: #BAB1E6;
+    color: #572E61;
 }
 
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: #4F3661;
+}
 #cabecalho{
     text-align: center;
 }

@@ -5,3 +5,95 @@
 body{
     background-color: lightsteelblue;
 }
+
+#cabecalho{
+    text-align: center;
+}
+
+label{
+    
+}
+
+#menu {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+button{
+    margin: 30px
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 30px
+}
+
+    .button:hover {
+        background-color: #3e8e41
+    }
+
+    .button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+.buttonDelete {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #E00501;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 30px
+}
+
+    .buttonDelete:hover {
+        background-color: #AD0300;
+    }
+
+    .buttonDelete:active {
+        background-color: #AD0300;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+.buttonUpdate {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #E05002;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 30px
+}
+
+    .buttonUpdate:hover {
+        background-color: #AD3E01;
+    }
+
+    .buttonUpdate:active {
+        background-color: #AD3E01;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }

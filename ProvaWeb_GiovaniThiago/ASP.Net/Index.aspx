@@ -9,11 +9,11 @@
     <link rel="stylesheet" type="text/css" href="../CSS/css.css" />
 </head>
 <body>
-    <h1 id="cabeçalho">
-        Concessinonária Sarchesi
+    <h1 id="cabecalho">
+        Concessinonária Sarchesi Valle
     </h1>
     <form id="frmCadastro" runat="server">
-            <asp:Label ID="lblId" runat="server" Text="Id Carro" Width="75px"></asp:Label>
+            <asp:Label  ID="lblId" runat="server" Text="Id Carro" Width="75px"></asp:Label>
             <asp:TextBox ID="txtId" runat="server" MaxLength="20" Width="100px"></asp:TextBox><br />
             <br />
             <asp:Label ID="lblMarca" runat="server" Text="Marca" Width="75px"></asp:Label>
@@ -35,9 +35,9 @@
             <asp:TextBox ID="txtCor" runat="server" TextMode="Color" Width="100px"></asp:TextBox><br />
             <br />
             <div id="menu" aria-dropeffect="none" aria-orientation="vertical" dir="ltr">
-                <asp:Button ID="btnCadastrar" runat="server" Text="Cadastrar" OnClick="btnCadastrar_Click" Width="75px" />
-                <asp:Button ID="btnAtualizar" runat="server" Text="Atualizar" Width="75px" OnClick="btnAtualizar_Click" />
-                <asp:Button ID="btnExcluir" runat="server" Text="Excluir" Width="75px" OnClick="btnExcluir_Click" /><br />
+                <asp:Button Class="button" ID="btnCadastrar" runat="server" Text="Cadastrar" OnClick="btnCadastrar_Click" Width="158px" />
+                <asp:Button Class="buttonUpdate" ID="btnAtualizar" runat="server" Text="Atualizar" Width="157px" OnClick="btnAtualizar_Click" />
+                <asp:Button Class="buttonDelete" ID="btnExcluir" runat="server" Text="Excluir" Width="157px" OnClick="btnExcluir_Click" /><br />
                 <br />
             </div>
             <asp:Label ID="lblRetorno" runat="server" Text=""></asp:Label>
